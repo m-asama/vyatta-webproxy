@@ -15,9 +15,7 @@ AC_CONFIG_AUX_DIR([config])
 AM_INIT_AUTOMAKE([gnu no-dist-gzip dist-bzip2 subdir-objects])
 AC_PREFIX_DEFAULT([/opt/vyatta])
 
-AC_CONFIG_FILES(
-  [Makefile]
-  [debian/vyatta-webproxy.postinst])
+AC_CONFIG_FILES([Makefile])
 
 AC_OUTPUT
 

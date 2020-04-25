@@ -21,6 +21,8 @@ libtool
 /debian/vyatta-webproxy.postinst
 /debian/vyatta-webproxy.debhelper.log
 /debian/vyatta-webproxy.substvars
+/debian/.debhelper/
+/debian/changelog.*
 /INSTALL
 /Makefile.in
 /Makefile
