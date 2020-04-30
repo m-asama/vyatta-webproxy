@@ -55,8 +55,8 @@ use File::Compare;
 use Vyatta::Config;
 
 #squid globals
-my $squid_init      = '/etc/init.d/squid3';
-my $squid_mime_type = '/usr/share/squid3/mime.conf';
+my $squid_init      = '/etc/init.d/squid';
+my $squid_mime_type = '/usr/share/squid/mime.conf';
 
 #squidGuard globals
 my $urlfilter_data_dir            = '/opt/vyatta/etc/config/url-filtering';
